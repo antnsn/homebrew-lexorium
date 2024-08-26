@@ -15,7 +15,9 @@ cask "lexorium" do
   ]
 
   caveats <<~EOS
-    Rosetta 2
     Note: Due to macOS security settings, you may need to right-click the app and choose 'Open' to allow it to run the first time.
+
+    This application is built for Intel architecture and requires Rosetta 2 to run on Apple Silicon (M1/M2) Macs. To install Rosetta 2, run:
+      softwareupdate --install-rosetta
   EOS
 end
