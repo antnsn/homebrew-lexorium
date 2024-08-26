@@ -1,6 +1,6 @@
 cask "lexorium" do
   version "1.0.6"
-  sha256 "your-sha256-here"
+  sha256 "57205f58fc1d29ccdb3f4eec5753858d72816facdb7c68994463ae5b219b23d6"
 
   url "https://github.com/antnsn/Lexorium/releases/download/v#{version}/Lexorium-darwin-x64-#{version}.zip"
   name "Lexorium"
@@ -17,11 +17,11 @@ cask "lexorium" do
   caveats <<~EOS
     This app requires Rosetta 2 to run on Apple Silicon (M1/M2) Macs.
     If Rosetta 2 is not already installed, you can install it by running:
-    
+
       softwareupdate --install-rosetta
 
     After Rosetta 2 is installed, you can run the app normally.
-    
+
     Note: Due to macOS security settings, you may need to right-click the app and choose 'Open' to allow it to run the first time.
   EOS
 end
