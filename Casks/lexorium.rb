@@ -1,6 +1,6 @@
 cask "lexorium" do
-  version "3.0.0"
-  sha256 "690e432d196554c922000cea5ce69eecb660113a8e8bcc88030c25658ba04fd4"
+  version "3.0.2"
+  sha256 "31580f8e4459a04048def1fbfcd69208ba22168923c19377b91ecb03b0d7141d"
 
   url "https://github.com/antnsn/Lexorium/releases/download/v#{version}/Lexorium-darwin-x64-#{version}.zip"
   name "Lexorium"
