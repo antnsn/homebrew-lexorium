@@ -23,4 +23,4 @@ cask "lexorium" do
     
 #     Note: Due to macOS security settings, you may need to right-click the app and choose 'Open' to allow it to run the first time.
 #   EOS
-# end
+end
