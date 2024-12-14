@@ -1,7 +1,7 @@
 cask "lexorium" do
   version "3.0.3"
-  sha256 "804044c5619926fccf1d3074253dc1ace15d86dc0dccf80c917e358c0414950e"
-  url "https://github.com/antnsn/Lexorium/releases/download/v#{version}/Lexorium-darwin-x64-#{version}.zip"
+  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  url "https://github.com/antnsn/Lexorium/releases/download/v#{version}/Lexorium-darwin-arm64-#{version}.zip"
   name "Lexorium"
   desc "Manage notes with markdown support"
   homepage "https://github.com/antnsn/Lexorium"
