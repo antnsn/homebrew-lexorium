@@ -11,7 +11,7 @@ cask "lexorium" do
   postflight do
     system_command "/usr/bin/xattr",
                    args: ["-cr", "#{appdir}/Lexorium.app"],
-                   sudo: false
+                   sudo: true
   end
 
   zap trash: [
