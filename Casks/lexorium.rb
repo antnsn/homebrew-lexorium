@@ -1,6 +1,6 @@
 cask "lexorium" do
   version "4.0.0"
-  sha256 "3b4adb7c8ff1dc7383bd8a81d6f6b326eebd26775d465f247a337508359b78e7"
+  sha256 "6b2e850f2ff545cb039da5fc67aff58760626da13391e3611b95e5f134183136"
   url "https://github.com/antnsn/Lexorium/releases/download/v#{version}/Lexorium_#{version}_aarch64.dmg"
   name "Lexorium"
   desc "A markdown note and snippet manager — a place for words"
